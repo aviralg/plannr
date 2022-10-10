@@ -1,0 +1,71 @@
+
+url: ~
+template:
+  bootstrap: 5
+  bootswatch: simplex
+
+
+reference:
+
+- title: Construct and Combine Plans
+  contents:
+  - plan_new
+  - plan_pass
+  - plan_fail
+  - plan_any
+  - plan_all
+  - plan_not
+  - plan_if
+
+- title: Query Plans
+  contents:
+  - plan_name
+  - plan_desc
+  - plan_fun
+  - plan_deps
+  - plan_dep
+  - plan_data
+  - plan_res
+  - plan_show
+  - plan_help
+
+- title: Result
+  desc: >
+    Query plan result values
+  contents:
+  - res_sout
+  - res_code
+  - res_succ
+  - res_time
+  - res_dir
+
+- title: Data
+  desc: >
+    Query plan data values
+  contents:
+  - data_read
+  - data_write
+  - data_dir
+  - data_file
+
+- title: Execution
+  desc: >
+    Execute plans
+  contents:
+  - plan_run
+  - plan_cmd
+  #- plan_web
+
+- title: Extension
+  desc: >
+    Query, modify, and use reader and writer by file extension
+  contents:
+    - ext_set
+    - ext_wtr
+    - ext_rdr
+    - ext_read
+    - ext_write
+
+
+development:
+  mode: auto
